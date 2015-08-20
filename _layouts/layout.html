@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>{{ page.title }}</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="/favicon.ico">
+</head>
+<body>
+
+<h1><a href="/">Home</a></h1>
+
+<div class="container">
+  {{ content }}
+</div>
+
+<footer class="footer">
+  <div class="container">
+    <p class="pull-right">
+      {% if page.previous.url %}<a href="{{page.previous.url}}" title="Previous Post: {{page.previous.title}}">&laquo;
+      Previous Blog Post</a>{% endif %}
+      {% if page.next.url %}| <a href="{{page.next.url}}" title="Next Post: {{page.next.title}}">Next Blog
+      Post &raquo; </a>{% endif %}
+    </p>
+
+
+    <p>Page last generated on {{ site.time | date: "%B %e, %Y" }}</p>
+  </div>
+</footer>
+
+</body>
+</html>

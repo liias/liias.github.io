@@ -1,1 +1,16 @@
-"Say What?" 
+---
+layout: layout
+title: Say What?
+---
+
+{% for post in site.posts offset: 0 limit: 50 %}
+<div class="row">
+  <h4><a href="{{ post.url }}">{{ post.title }}</a></h4>
+
+  <p>{{ post.summary }}</p>
+
+  <p>{{ post.date | date: "%B %e, %Y" }}</p>
+
+  <p><a href="{{ post.url }}">Read more...</a></p>
+</div>
+{% endfor %}	

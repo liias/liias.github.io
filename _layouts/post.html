@@ -1,0 +1,21 @@
+---
+layout: layout
+---
+
+<div class="content">
+  <h1>{{ page.title }}</h1>
+
+  <div>
+    <div>
+      <h5>{{ page.date | date: "%B %e, %Y" }}</h5>
+    </div>
+    <div>
+      {% if page.previous.url %}<a href="{{page.previous.url}}" title="Previous Post: {{page.previous.title}}">
+      <i class="icon-chevron-left"></i></a>{% endif %}
+      {% if page.next.url %}<a href="{{page.next.url}}" title="Next Post: {{page.next.title}}">
+      <i class="icon-chevron-right"></i></a>{% endif %}
+    </div>
+  </div>
+
+  {{ content }}
+</div>
