@@ -4,13 +4,12 @@ title: Say What?
 ---
 
 {% for post in site.posts offset: 0 limit: 50 %}
-<div class="row">
-  <h4><a href="{{ post.url }}">{{ post.title }}</a></h4>
-
-  <p>{{ post.summary }}</p>
-
-  <p>{{ post.date | date: "%B %e, %Y" }}</p>
-
+<article>
+  <header>
+    <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+    <h5>{{ post.date | date: "%B %e, %Y" }}</h5>
+  </header>
+  {{ post.excerpt }}
   <p><a href="{{ post.url }}">Read more...</a></p>
-</div>
+</article>
 {% endfor %}	

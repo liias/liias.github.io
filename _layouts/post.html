@@ -2,26 +2,10 @@
 layout: layout
 ---
 
-<div class="content">
-  <h1>{{ page.title }}</h1>
-
-  <div>
-    <div>
-      <h5>{{ page.date | date: "%B %e, %Y" }}</h5>
-    </div>
-    <div>
-      {% if page.previous.url %}<a href="{{page.previous.url}}" title="Previous Post: {{page.previous.title}}">
-      <i class="icon-chevron-left"></i></a>{% endif %}
-      {% if page.next.url %}<a href="{{page.next.url}}" title="Next Post: {{page.next.title}}">
-      <i class="icon-chevron-right"></i></a>{% endif %}
-    </div>
-  </div>
-
+<article>
+  <header>
+    <h2>{{ page.title }}</h2>
+    <h5>{{ page.date | date: "%B %e, %Y" }}</h5>
+  </header>
   {{ content }}
-
-  <!--  <div>
-      http://news.ycombinator.com/submitlink?u=http://erjjones.github.com{{ page.url }}&t={{ page.title }}
-      <script type="text/javascript" src="//www.reddit.com/buttonlite.js?i=5&newwindow=1"></script>
-    </div>-->
-
-</div>
+</article>

@@ -11,23 +11,13 @@
 
 <h1><a href="/">Home</a></h1>
 
-<div class="container">
+<main>
   {{ content }}
-</div>
+</main>
 
-<footer class="footer">
-  <div class="container">
-    <p class="pull-right">
-      {% if page.previous.url %}<a href="{{page.previous.url}}" title="Previous Post: {{page.previous.title}}">&laquo;
-      Previous Blog Post</a>{% endif %}
-      {% if page.next.url %}| <a href="{{page.next.url}}" title="Next Post: {{page.next.title}}">Next Blog
-      Post &raquo; </a>{% endif %}
-    </p>
-
-
-    <p>Page last generated on {{ site.time | date: "%B %e, %Y" }}</p>
-  </div>
-</footer>
+<!--<footer class="footer">
+  <p>Page last generated on {{ site.time | date: "%B %e, %Y" }}</p>
+</footer>-->
 
 </body>
 </html>
