@@ -11,3 +11,15 @@ defaults:
       type: "posts" # previously `post` in Jekyll 2.2.
     values:
       layout: "post"
+
+prose:
+	rooturl: '_posts'
+	ignore: ['_config.yml', 'index.html', '/_layouts', '/_includes']
+	siteurl: "https://liias.github.io/"
+	media: "media"
+	metadata:
+		_posts:
+		  - name: "title"
+		 	field:
+		 		element: "text"
+		 		label: "title"
