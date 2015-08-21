@@ -4,8 +4,13 @@ layout: layout
 
 <article>
   <header>
-    <h2>{{ page.title }}</h2>
-    <h5>{{ page.date | date: "%B %e, %Y" }}</h5>
+    <h1>{{ page.title }}</h1>
+    <time datetime="{{ page.date }}">{{ page.date | date: '%B %e, %Y' }}</time>
   </header>
   {{ content }}
 </article>
+
+<!--<section>
+  <span class="related_title">Related</span>
+
+</section>-->
