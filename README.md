@@ -5,3 +5,4 @@ gem uni hitimes
 gem ins hitimes -v1.2.2 --platform ruby
 
 bundle exec jekyll serve
+bundle exec jekyll serve --drafts
