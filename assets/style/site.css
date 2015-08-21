@@ -44,10 +44,12 @@ article {
 article header h1, article header h1 a {
   color: #333;
   text-decoration: none;
+  margin-bottom: 0;
+  padding-bottom: 0;
 }
 
 article header time {
-
+  margin-bottom: 10px;
 }
 
 .related_title {
