@@ -14,7 +14,6 @@ defaults:
 
 prose:
   rooturl: '_posts'
-  ignore: ['_config.yml', 'index.html', '/_layouts', '/_includes']
   siteurl: 'https://liias.github.io/'
   media: 'media'
   metadata:
