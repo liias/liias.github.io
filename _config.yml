@@ -2,24 +2,24 @@ highlighter: pygments
 safe: true
 lsi: false
 
-title: "Say what?"
+title: 'Say what?'
 
 defaults:
   -
     scope:
-      path: "" # an empty string here means all files in the project
-      type: "posts" # previously `post` in Jekyll 2.2.
+      path: '' # an empty string here means all files in the project
+      type: 'posts' # previously `post` in Jekyll 2.2.
     values:
-      layout: "post"
+      layout: 'post'
 
 prose:
   rooturl: '_posts'
   ignore: ['_config.yml', 'index.html', '/_layouts', '/_includes']
-  siteurl: "https://liias.github.io/"
-  media: "media"
+  siteurl: 'https://liias.github.io/'
+  media: 'media'
   metadata:
     _posts:
-	  - name: "title"
+	  - name: 'title'
 	    field:
-		element: "text"
-		label: "title"
+		  element: 'text'
+		  label: 'title'
