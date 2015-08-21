@@ -5,7 +5,13 @@ html {
 body {
   font-size: 13px;
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  padding: 2.5% 2.5% 1.5%;
+  padding: 0 2.5% 1.5%;
+}
+
+header#site_header {
+  padding-top: 20px;
+  border-bottom: solid 10px rgb(241, 241, 241);
+  padding-bottom: 20px;
 }
 
 header#site_header h1 {
@@ -24,11 +30,9 @@ header#site_header h1 a {
 header#site_header h2 {
   margin: 0;
   padding: 0;
-}
-
-header h2 {
-  color: #7a7a7a;
+  font-weight: normal;
   font-size: 0.923em;
+  color: #7a7a7a;
 }
 
 article {

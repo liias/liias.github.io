@@ -2,7 +2,7 @@ highlighter: pygments
 safe: true
 lsi: false
 
-title: 'Say what?'
+title: 'Say What?'
 
 defaults:
   -
