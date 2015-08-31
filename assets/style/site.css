@@ -36,9 +36,17 @@ header#site_header h2 {
   color: #7a7a7a;
 }
 
+header#site_header h1, header#site_header h2 {
+  margin: 0 auto;
+  width: 50rem;
+  max-width: 50rem;
+}
+
 main {
-  font-size: 18px;
-  line-height: 28px;
+  font-size: 16px;
+  line-height: 26px;
+  margin: 0 auto;
+  max-width: 50em;
 }
 
 article {
