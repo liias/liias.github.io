@@ -78,3 +78,12 @@ article h2 {
   padding-top: 10px;
   border-top: 1px solid rgba(0, 0, 0, .2);
 }
+
+pre {
+  padding: 16px;
+  overflow: auto;
+  font-size: 85%;
+  line-height: 1.45;
+  background-color: #f7f7f7;
+  border-radius: 3px;
+}

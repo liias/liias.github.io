@@ -21,7 +21,6 @@ You can still install them, but then you need to do [this](http://askubuntu.com/
 
     sudo reboot
 
-
 And if for whatever reason Unity doesn't start up anymore, then Right click on desktop, choose Open Terminal and run
 
     dconf reset -f /org/compiz/
