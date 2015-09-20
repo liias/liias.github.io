@@ -6,7 +6,7 @@ Hope it's useful to future me or anyone else.
 ## Conflicting Intel Graphics Installer for Linux and NVIDIA proprietary drivers
 
 Installing these Intel drivers will cause your system to not start X up.
-You can still install them, but then you need to do this ( http://askubuntu.com/a/540722/... )
+You can still install them, but then you need to do [this](http://askubuntu.com/a/540722/16494):
 
     sudo apt-get purge i915-4.0.4-3.19-dkms
     sudo apt-get install --reinstall xserver-xorg-video-intel libgl1-mesa-glx libgl1-mesa-dri xserver-xorg-core
