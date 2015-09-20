@@ -8,27 +8,24 @@ Hope it's useful to future me or anyone else.
 Installing these Intel drivers will cause your system to not start X up.
 You can still install them, but then you need to do this ( http://askubuntu.com/a/540722/... )
 
-```
-sudo apt-get purge i915-4.0.4-3.19-dkms
-sudo apt-get install --reinstall xserver-xorg-video-intel libgl1-mesa-glx libgl1-mesa-dri xserver-xorg-core
-sudo dpkg-reconfigure xserver-xorg
-sudo apt-get install --reinstall nvidia-355
-sudo dpkg-reconfigure bbswitch-dkms
-sudo ldconfig -n
-sudo update-initramfs -u
+    sudo apt-get purge i915-4.0.4-3.19-dkms
+    sudo apt-get install --reinstall xserver-xorg-video-intel libgl1-mesa-glx libgl1-mesa-dri xserver-xorg-core
+    sudo dpkg-reconfigure xserver-xorg
+    sudo apt-get install --reinstall nvidia-355
+    sudo dpkg-reconfigure bbswitch-dkms
+    sudo ldconfig -n
+    sudo update-initramfs -u
 
-sudo prime-select nvidia
-sudo nvidia-xconfig
+    sudo prime-select nvidia
+    sudo nvidia-xconfig
 
-sudo reboot
-```
+    sudo reboot
+
 
 And if for whatever reason Unity doesn't start up anymore, then Right click on desktop, choose Open Terminal and run
 
-```
-dconf reset -f /org/compiz/
-setsid unity
-```
+    dconf reset -f /org/compiz/
+    setsid unity
 
 If screen goes black now, switch to some other VT (e.g Ctrl+Alt+F2), login and sudo reboot
 Having Lenovo Ideapad Y410P
@@ -37,10 +34,8 @@ Keywords for googlers: Nvidia graphics-drivers prime intel graphics installer fo
 
 ## Speaker doing pop noise when shutting down computer
 
-Add to the end of /etc/modprobe.d/alsa-base.conf
+Add to the end of `/etc/modprobe.d/alsa-base.conf`
 
-```
-options snd-hda-intel model=,generic
-```
+    options snd-hda-intel model=,generic
 
 (yes, with the comma)
