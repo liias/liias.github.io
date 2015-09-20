@@ -1,5 +1,6 @@
 ---
 title: Lenovo IdeaPad Y410p and Ubuntu 15.04
+keywords: Nvidia graphics-drivers prime intel graphics installer for linux black screen
 ---
 Hope it's useful to future me or anyone else.
 
@@ -27,8 +28,6 @@ And if for whatever reason Unity doesn't start up anymore, then Right click on d
     setsid unity
 
 If screen goes black now, switch to some other VT (e.g Ctrl+Alt+F2), login and sudo reboot
-Having Lenovo Ideapad Y410P
-Keywords for googlers: Nvidia graphics-drivers prime intel graphics installer for linux black screen
 
 
 ## Speaker doing pop noise when shutting down computer
