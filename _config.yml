@@ -6,7 +6,7 @@ siteurl: 'https://liias.github.io'
 
 title: 'Say What?'
 excerpt_separator: <!--more-->
-permalink: '/:year/:month/:title'
+permalink: pretty
 
 defaults:
   -
