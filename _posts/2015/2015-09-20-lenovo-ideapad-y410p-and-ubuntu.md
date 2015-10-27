@@ -1,6 +1,7 @@
 ---
 title: Lenovo IdeaPad Y410p and Ubuntu 15.04
 keywords: Nvidia graphics-drivers prime intel graphics installer for linux black screen
+comments: true
 ---
 Hope it's useful to future me or anyone else.
 
@@ -21,6 +22,8 @@ You can still install them, but then you need to do [this](http://askubuntu.com/
     sudo nvidia-xconfig
 
     sudo reboot
+
+<!--more-->
 
 And if for whatever reason Unity doesn't start up anymore, then Right click on desktop, choose Open Terminal and run
 

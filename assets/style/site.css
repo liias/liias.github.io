@@ -87,3 +87,7 @@ pre {
   background-color: #f7f7f7;
   border-radius: 3px;
 }
+
+code {
+  background-color: #f6f6f6;
+}

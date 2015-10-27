@@ -3,6 +3,7 @@ safe: true
 lsi: false
 
 title: 'Say What?'
+excerpt_separator: <!--more-->
 
 defaults:
   -
