@@ -10,7 +10,7 @@ This is the first post in a series of blog posts describing the process of creat
 Setting up IntelliJ IDEA for plugin development is quite well documented in the [IntelliJ Platform SDK DevGuide](http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/setting_up_environment.html). Only things that I would add is installing plugins [Grammar-Kit](https://github.com/JetBrains/Grammar-Kit) and [PsiViewer](https://github.com/cmf/psiviewer), which are both available in the official plugins repository.
 
 **Grammar-Kit** enables us to write the language grammar in a variant of BNF ([Backus-Naur Form](https://en.wikipedia.org/wiki/Backus%E2%80%93Naur_Form)) and then generate java classes for parsers, element types and PSI (Program Structure Interface).
-It also allows us to generate [JFlex](http://jflex.de/)-compatible lexer definition file (*.flex) from the grammer. JFlex is a lexical analyzer generator (also known as scanner generator) for Java. JFlex lexer is based on deterministic finite automaton. After the .flex file generation you use the JFlex generator (also bundled with the Grammar-Kit plugin). The plugin also features live preview where we can type in our language and see the parsing result immediately.
+It also allows us to generate [JFlex](http://jflex.de/)-compatible lexer definition file (*.flex) from the grammar. JFlex is a lexical analyzer generator (also known as scanner generator) for Java. JFlex lexer is based on deterministic finite automaton. After the .flex file generation you use the JFlex generator (also bundled with the Grammar-Kit plugin). The plugin also features live preview where we can type in our language and see the parsing result immediately.
 
 <!--more-->
 
