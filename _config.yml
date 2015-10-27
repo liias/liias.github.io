@@ -2,7 +2,7 @@ highlighter: pygments
 safe: true
 lsi: false
 
-siteurl: 'https://liias.github.com'
+siteurl: 'https://liias.github.io'
 
 title: 'Say What?'
 excerpt_separator: <!--more-->

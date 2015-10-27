@@ -4,6 +4,7 @@
   <meta charset="utf-8">
   <title>{% if page.title %}{{ page.title }} - {% endif %}{{ site.title }}</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="canonical" href="{{ site.siteurl }}{% if page.url != '/index.html' %}{{ page.url }}{% endif %}" />
   <link href="/assets/style/syntax_highlight.css" rel="stylesheet">
   <link href="/assets/style/site.css" rel="stylesheet">
 </head>
