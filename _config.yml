@@ -4,6 +4,7 @@ lsi: false
 
 title: 'Say What?'
 excerpt_separator: <!--more-->
+permalink: '/:year/:month/:title'
 
 defaults:
   -

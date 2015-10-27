@@ -2,6 +2,7 @@
 title: Lenovo IdeaPad Y410p and Ubuntu 15.04
 keywords: Nvidia graphics-drivers prime intel graphics installer for linux black screen
 comments: true
+uuid: ideapad_ubuntu
 ---
 Hope it's useful to future me or anyone else.
 
