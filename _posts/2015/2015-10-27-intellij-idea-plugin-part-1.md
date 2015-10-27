@@ -36,7 +36,7 @@ Let’s have a look on simplified example for basic syntax for rules:
 
 where method_rule matches either someMethod(arg) or someMethod() depending what argument_name and method_name matches (let’s assume here that they are alphanumeric names).
 
-Each rule can optionally have a modifier, one of:
+Each rule can optionally have modifiers:
 
 - `private`: PSI node will not be generated for this rule. Rules are public by default.
 - `external`: not generated. Used for generated and handwritten code integration.
