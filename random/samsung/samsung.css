@@ -1,0 +1,7 @@
+table.specs_table tr:nth-child(even) {
+  background-color: #eeeeee;
+}
+
+table.specs_table th {
+  text-align: right;
+}
