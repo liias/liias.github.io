@@ -1,0 +1,25 @@
+---
+layout: layout
+title: Samsung TV (2008+) model name parser
+script: samsung
+style_inline: |
+  table.specs_table th {
+    text-align: right;
+  }
+---
+<article>
+  <header>
+    <h1>{{ page.title }}</h1>
+  </header>
+  <p>Will not work for every model</p>
+
+  <form onsubmit="parseModel(this.model.value); return false;">
+    <label>
+      Model:
+      <input name="model" type="search" value="UE55JU6472" placeholder="e.g. UE55JU6472"/>
+      <input type="submit" value="Parse"/>
+    </label>
+  </form>
+
+  <div id="dynamic_content"></div>
+</article>
