@@ -51,7 +51,6 @@ function parseModel(model) {
   // for 100+ inches
   if (!isNaN(model.substring(i, i + 1))) {
     screenSize += model.substring(i, ++i);
-    i = 5;
   }
 
   var manufacturedIn = model.substring(i, ++i);
@@ -59,7 +58,6 @@ function parseModel(model) {
   var extraSpecifier = null;
   if (isNaN(model.substring(i, i + 1))) {
     extraSpecifier = model.substring(i, ++i);
-    i = 6;
   }
 
   var series = model.substring(i, i + 4);
