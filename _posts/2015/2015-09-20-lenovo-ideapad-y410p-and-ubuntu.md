@@ -41,3 +41,5 @@ Add to the end of `/etc/modprobe.d/alsa-base.conf`
     options snd-hda-intel model=,generic
 
 (yes, with the comma)
+
+Bug: https://bugzilla.kernel.org/show_bug.cgi?id=71511
