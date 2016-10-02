@@ -42,4 +42,4 @@ Add to the end of `/etc/modprobe.d/alsa-base.conf`
 
 (yes, with the comma)
 
-Bug: https://bugzilla.kernel.org/show_bug.cgi?id=71511
+Bug: <https://bugzilla.kernel.org/show_bug.cgi?id=71511>
