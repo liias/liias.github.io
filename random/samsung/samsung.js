@@ -1,11 +1,12 @@
 // this helped a lot: http://www.samsung.com/uk/support/skp/faq/1052003
 
 var DISPLAY_TYPES = {
-  U: 'LED',
-  P: 'PLASMA',
-  L: 'LCD',
   H: 'DLP',
-  K: 'OLED'
+  K: 'OLED',
+  L: 'LCD',
+  P: 'PLASMA',
+  Q: 'QLED',
+  U: 'LED'  
 };
 var MARKETS = {
   A: 'Asia',
@@ -21,7 +22,10 @@ var MODEL_YEARS = {
   F: 2013,
   H: 2014,
   J: 2015,
-  L: 2015
+  K: 2016, // yes, 2016 is before 2015
+  L: 2015,
+  M: 2017,
+  Q: 2017
 };
 
 var EXTRA_IDENTIFIERS_BEFORE_2014 = {
